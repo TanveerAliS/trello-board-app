@@ -1,0 +1,65 @@
+@import "../../styles/variables/colors";
+
+.newItem{
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+
+  input {
+    background-color: transparent;
+    padding: 0.75em 1.5em;
+    line-height: 1.5em;
+    border: 0;
+    display: block;
+    width: 88%;
+    border-bottom: 1px solid $primary-color;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, $primary-color 4%);
+    background-position: -100em 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-left: 0.5em;
+    transition: 0.3s cubic-bezier(.64,.09,.08,1) all;
+    &:focus,
+    &:valid {
+        background-position: 0 0;
+        ~ label {
+            color: $primary-color;
+            font-size: 0.875em;
+            top: -1.5em;
+        }
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+  .actions {
+    margin-top: 5px;
+    display: flex;
+
+    input{
+      margin: 8px;
+    }
+    
+    button:first-child {
+      margin-right: 5px;
+    }
+  }
+
+  input[type=button] {
+    padding: 0.75em 1.5em;
+    line-height: 1.5em;
+    border: 0;
+    background-color: $primary-color;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    &:hover {
+        box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+  }
+}
+

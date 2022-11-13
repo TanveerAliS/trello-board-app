@@ -1,0 +1,23 @@
+.actionItems {
+  position: relative;
+
+  .actionsContainer {
+    position: absolute;
+    right: 0;
+    background-color: inherit;
+    display: flex;
+    top : -8px;
+
+    .actionItem {
+      cursor: pointer;
+      background: inherit;
+      border: 0;
+      svg{
+        fill: gray;
+        :hover {
+          fill: black;
+        }
+      }
+    }
+  }
+}
