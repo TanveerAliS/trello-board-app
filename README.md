@@ -2,7 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) along with [nanoid](https://www.npmjs.com/package/nanoid) and [React-icons](https://react-icons.github.io/react-icons/) 
 
+![Screenshot 2022-11-13 at 23 04 16](https://user-images.githubusercontent.com/3439040/201547988-e7cb2b6e-9ce4-4b86-b992-654fe0f420ff.png)
+
 ## Available Scripts
+
 
 In the project directory, you can run:
 
